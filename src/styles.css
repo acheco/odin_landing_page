@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/**** HEADER SECTION STYLES ****/
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 550px;
+    margin: 0;
+    padding: 0 200px;
+
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerSection{
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+
+.navLink{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerImg{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.titleSection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.signInBtn{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bolder;
+}
+.signInBtn:hover{
+    background-color: #005CEAFF;
+    cursor: pointer;
+}
+
+/****  MAIN SECTION STYLES ****/
+
+.upperSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+}
+
+
+/*** FOOTER STYLES ***/
+
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+
+}
